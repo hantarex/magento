@@ -1,0 +1,64 @@
+[28-Nov-2017 14:23:00 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) in C:\www\magento\setup\src\Magento\Setup\Module\Di\Compiler\Config\Chain\BackslashTrim.php on line 59
+[28-Nov-2017 14:23:00 UTC] PHP Stack trace:
+[28-Nov-2017 14:23:00 UTC] PHP   1. {main}() C:\www\magento\bin\magento:0
+[28-Nov-2017 14:23:00 UTC] PHP   2. Magento\Framework\Console\Cli->run() C:\www\magento\bin\magento:23
+[28-Nov-2017 14:23:00 UTC] PHP   3. Magento\Framework\Console\Cli->doRun() C:\www\magento\vendor\symfony\console\Application.php:117
+[28-Nov-2017 14:23:00 UTC] PHP   4. Magento\Framework\Console\Cli->doRun() C:\www\magento\vendor\magento\framework\Console\Cli.php:104
+[28-Nov-2017 14:23:00 UTC] PHP   5. Magento\Framework\Console\Cli->doRunCommand() C:\www\magento\vendor\symfony\console\Application.php:194
+[28-Nov-2017 14:23:00 UTC] PHP   6. Magento\Setup\Console\Command\DiCompileCommand->run() C:\www\magento\vendor\symfony\console\Application.php:843
+[28-Nov-2017 14:23:00 UTC] PHP   7. Magento\Setup\Console\Command\DiCompileCommand->execute() C:\www\magento\vendor\symfony\console\Command\Command.php:242
+[28-Nov-2017 14:23:00 UTC] PHP   8. Magento\Setup\Module\Di\App\Task\Manager->process() C:\www\magento\setup\src\Magento\Setup\Console\Command\DiCompileCommand.php:205
+[28-Nov-2017 14:23:00 UTC] PHP   9. Magento\Setup\Module\Di\App\Task\Operation\Area->doOperation() C:\www\magento\setup\src\Magento\Setup\Module\Di\App\Task\Manager.php:56
+[28-Nov-2017 14:23:00 UTC] PHP  10. Magento\Setup\Module\Di\Compiler\Config\ModificationChain->modify() C:\www\magento\setup\src\Magento\Setup\Module\Di\App\Task\Operation\Area.php:91
+[28-Nov-2017 14:23:00 UTC] PHP  11. Magento\Setup\Module\Di\Compiler\Config\Chain\BackslashTrim->modify() C:\www\magento\setup\src\Magento\Setup\Module\Di\Compiler\Config\ModificationChain.php:42
+[28-Nov-2017 14:23:00 UTC] PHP  12. Magento\Setup\Module\Di\Compiler\Config\Chain\BackslashTrim->resolveArguments() C:\www\magento\setup\src\Magento\Setup\Module\Di\Compiler\Config\Chain\BackslashTrim.php:26
+[28-Nov-2017 14:23:00 UTC] PHP  13. Magento\Setup\Module\Di\Compiler\Config\Chain\BackslashTrim->resolveArguments() C:\www\magento\setup\src\Magento\Setup\Module\Di\Compiler\Config\Chain\BackslashTrim.php:66
+[28-Nov-2017 14:23:00 UTC] PHP  14. Magento\Setup\Module\Di\Compiler\Config\Chain\BackslashTrim->resolveArguments() C:\www\magento\setup\src\Magento\Setup\Module\Di\Compiler\Config\Chain\BackslashTrim.php:66
+[28-Nov-2017 14:25:43 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) in C:\www\magento\setup\src\Magento\Setup\Module\Di\Compiler\Config\Chain\BackslashTrim.php on line 59
+[28-Nov-2017 14:25:43 UTC] PHP Stack trace:
+[28-Nov-2017 14:25:43 UTC] PHP   1. {main}() C:\www\magento\bin\magento:0
+[28-Nov-2017 14:25:43 UTC] PHP   2. Magento\Framework\Console\Cli->run() C:\www\magento\bin\magento:23
+[28-Nov-2017 14:25:43 UTC] PHP   3. Magento\Framework\Console\Cli->doRun() C:\www\magento\vendor\symfony\console\Application.php:117
+[28-Nov-2017 14:25:43 UTC] PHP   4. Magento\Framework\Console\Cli->doRun() C:\www\magento\vendor\magento\framework\Console\Cli.php:104
+[28-Nov-2017 14:25:43 UTC] PHP   5. Magento\Framework\Console\Cli->doRunCommand() C:\www\magento\vendor\symfony\console\Application.php:194
+[28-Nov-2017 14:25:43 UTC] PHP   6. Magento\Setup\Console\Command\DiCompileCommand->run() C:\www\magento\vendor\symfony\console\Application.php:843
+[28-Nov-2017 14:25:43 UTC] PHP   7. Magento\Setup\Console\Command\DiCompileCommand->execute() C:\www\magento\vendor\symfony\console\Command\Command.php:242
+[28-Nov-2017 14:25:43 UTC] PHP   8. Magento\Setup\Module\Di\App\Task\Manager->process() C:\www\magento\setup\src\Magento\Setup\Console\Command\DiCompileCommand.php:205
+[28-Nov-2017 14:25:43 UTC] PHP   9. Magento\Setup\Module\Di\App\Task\Operation\Area->doOperation() C:\www\magento\setup\src\Magento\Setup\Module\Di\App\Task\Manager.php:56
+[28-Nov-2017 14:25:43 UTC] PHP  10. Magento\Setup\Module\Di\Compiler\Config\ModificationChain->modify() C:\www\magento\setup\src\Magento\Setup\Module\Di\App\Task\Operation\Area.php:91
+[28-Nov-2017 14:25:43 UTC] PHP  11. Magento\Setup\Module\Di\Compiler\Config\Chain\BackslashTrim->modify() C:\www\magento\setup\src\Magento\Setup\Module\Di\Compiler\Config\ModificationChain.php:42
+[28-Nov-2017 14:25:43 UTC] PHP  12. Magento\Setup\Module\Di\Compiler\Config\Chain\BackslashTrim->resolveArguments() C:\www\magento\setup\src\Magento\Setup\Module\Di\Compiler\Config\Chain\BackslashTrim.php:26
+[28-Nov-2017 14:25:43 UTC] PHP  13. Magento\Setup\Module\Di\Compiler\Config\Chain\BackslashTrim->resolveArguments() C:\www\magento\setup\src\Magento\Setup\Module\Di\Compiler\Config\Chain\BackslashTrim.php:66
+[28-Nov-2017 14:25:43 UTC] PHP  14. Magento\Setup\Module\Di\Compiler\Config\Chain\BackslashTrim->resolveArguments() C:\www\magento\setup\src\Magento\Setup\Module\Di\Compiler\Config\Chain\BackslashTrim.php:66
+[28-Nov-2017 14:43:58 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) in C:\www\magento\setup\src\Magento\Setup\Module\Di\Compiler\Config\Chain\BackslashTrim.php on line 59
+[28-Nov-2017 14:43:58 UTC] PHP Stack trace:
+[28-Nov-2017 14:43:58 UTC] PHP   1. {main}() C:\www\magento\bin\magento:0
+[28-Nov-2017 14:43:58 UTC] PHP   2. Magento\Framework\Console\Cli->run() C:\www\magento\bin\magento:23
+[28-Nov-2017 14:43:58 UTC] PHP   3. Magento\Framework\Console\Cli->doRun() C:\www\magento\vendor\symfony\console\Application.php:117
+[28-Nov-2017 14:43:58 UTC] PHP   4. Magento\Framework\Console\Cli->doRun() C:\www\magento\vendor\magento\framework\Console\Cli.php:104
+[28-Nov-2017 14:43:58 UTC] PHP   5. Magento\Framework\Console\Cli->doRunCommand() C:\www\magento\vendor\symfony\console\Application.php:194
+[28-Nov-2017 14:43:58 UTC] PHP   6. Magento\Setup\Console\Command\DiCompileCommand->run() C:\www\magento\vendor\symfony\console\Application.php:843
+[28-Nov-2017 14:43:58 UTC] PHP   7. Magento\Setup\Console\Command\DiCompileCommand->execute() C:\www\magento\vendor\symfony\console\Command\Command.php:242
+[28-Nov-2017 14:43:58 UTC] PHP   8. Magento\Setup\Module\Di\App\Task\Manager->process() C:\www\magento\setup\src\Magento\Setup\Console\Command\DiCompileCommand.php:205
+[28-Nov-2017 14:43:58 UTC] PHP   9. Magento\Setup\Module\Di\App\Task\Operation\Area->doOperation() C:\www\magento\setup\src\Magento\Setup\Module\Di\App\Task\Manager.php:56
+[28-Nov-2017 14:43:58 UTC] PHP  10. Magento\Setup\Module\Di\Compiler\Config\ModificationChain->modify() C:\www\magento\setup\src\Magento\Setup\Module\Di\App\Task\Operation\Area.php:91
+[28-Nov-2017 14:43:58 UTC] PHP  11. Magento\Setup\Module\Di\Compiler\Config\Chain\BackslashTrim->modify() C:\www\magento\setup\src\Magento\Setup\Module\Di\Compiler\Config\ModificationChain.php:42
+[28-Nov-2017 14:43:58 UTC] PHP  12. Magento\Setup\Module\Di\Compiler\Config\Chain\BackslashTrim->resolveArguments() C:\www\magento\setup\src\Magento\Setup\Module\Di\Compiler\Config\Chain\BackslashTrim.php:26
+[28-Nov-2017 14:43:58 UTC] PHP  13. Magento\Setup\Module\Di\Compiler\Config\Chain\BackslashTrim->resolveArguments() C:\www\magento\setup\src\Magento\Setup\Module\Di\Compiler\Config\Chain\BackslashTrim.php:66
+[28-Nov-2017 14:43:58 UTC] PHP  14. Magento\Setup\Module\Di\Compiler\Config\Chain\BackslashTrim->resolveArguments() C:\www\magento\setup\src\Magento\Setup\Module\Di\Compiler\Config\Chain\BackslashTrim.php:66
+[28-Nov-2017 14:48:36 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) in C:\www\magento\setup\src\Magento\Setup\Module\Di\Compiler\Config\Chain\BackslashTrim.php on line 59
+[28-Nov-2017 14:48:36 UTC] PHP Stack trace:
+[28-Nov-2017 14:48:36 UTC] PHP   1. {main}() C:\www\magento\bin\magento:0
+[28-Nov-2017 14:48:36 UTC] PHP   2. Magento\Framework\Console\Cli->run() C:\www\magento\bin\magento:23
+[28-Nov-2017 14:48:36 UTC] PHP   3. Magento\Framework\Console\Cli->doRun() C:\www\magento\vendor\symfony\console\Application.php:117
+[28-Nov-2017 14:48:36 UTC] PHP   4. Magento\Framework\Console\Cli->doRun() C:\www\magento\vendor\magento\framework\Console\Cli.php:104
+[28-Nov-2017 14:48:36 UTC] PHP   5. Magento\Framework\Console\Cli->doRunCommand() C:\www\magento\vendor\symfony\console\Application.php:194
+[28-Nov-2017 14:48:36 UTC] PHP   6. Magento\Setup\Console\Command\DiCompileCommand->run() C:\www\magento\vendor\symfony\console\Application.php:843
+[28-Nov-2017 14:48:36 UTC] PHP   7. Magento\Setup\Console\Command\DiCompileCommand->execute() C:\www\magento\vendor\symfony\console\Command\Command.php:242
+[28-Nov-2017 14:48:36 UTC] PHP   8. Magento\Setup\Module\Di\App\Task\Manager->process() C:\www\magento\setup\src\Magento\Setup\Console\Command\DiCompileCommand.php:205
+[28-Nov-2017 14:48:36 UTC] PHP   9. Magento\Setup\Module\Di\App\Task\Operation\Area->doOperation() C:\www\magento\setup\src\Magento\Setup\Module\Di\App\Task\Manager.php:56
+[28-Nov-2017 14:48:36 UTC] PHP  10. Magento\Setup\Module\Di\Compiler\Config\ModificationChain->modify() C:\www\magento\setup\src\Magento\Setup\Module\Di\App\Task\Operation\Area.php:91
+[28-Nov-2017 14:48:36 UTC] PHP  11. Magento\Setup\Module\Di\Compiler\Config\Chain\BackslashTrim->modify() C:\www\magento\setup\src\Magento\Setup\Module\Di\Compiler\Config\ModificationChain.php:42
+[28-Nov-2017 14:48:36 UTC] PHP  12. Magento\Setup\Module\Di\Compiler\Config\Chain\BackslashTrim->resolveArguments() C:\www\magento\setup\src\Magento\Setup\Module\Di\Compiler\Config\Chain\BackslashTrim.php:26
+[28-Nov-2017 14:48:36 UTC] PHP  13. Magento\Setup\Module\Di\Compiler\Config\Chain\BackslashTrim->resolveArguments() C:\www\magento\setup\src\Magento\Setup\Module\Di\Compiler\Config\Chain\BackslashTrim.php:66
+[28-Nov-2017 14:48:36 UTC] PHP  14. Magento\Setup\Module\Di\Compiler\Config\Chain\BackslashTrim->resolveArguments() C:\www\magento\setup\src\Magento\Setup\Module\Di\Compiler\Config\Chain\BackslashTrim.php:66

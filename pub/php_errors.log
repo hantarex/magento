@@ -1,0 +1,16 @@
+[28-Nov-2017 11:22:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function setActive() on boolean in C:\www\magento\vendor\magento\module-backend\Model\View\Result\Page.php:27
+Stack trace:
+#0 C:\www\magento\vendor\magento\module-theme\Controller\Adminhtml\Design\Config\Index.php(43): Magento\Backend\Model\View\Result\Page->setActiveMenu('Magento_Theme::...')
+#1 C:\www\magento\vendor\magento\framework\App\Action\Action.php(107): Magento\Theme\Controller\Adminhtml\Design\Config\Index->execute()
+#2 C:\www\magento\vendor\magento\module-backend\App\AbstractAction.php(229): Magento\Framework\App\Action\Action->dispatch(Object(Magento\Framework\App\Request\Http))
+#3 C:\www\magento\vendor\magento\framework\App\FrontController.php(55): Magento\Backend\App\AbstractAction->dispatch(Object(Magento\Framework\App\Request\Http))
+#4 C:\www\magento\vendor\magento\framework\App\Http.php(135): Magento\Framework\App\FrontController->dispatch(Object(Magento\Framework\App\Request\Http))
+#5 C:\www\magento\vendor\magento\framework\App\Bootstrap.php(256): Magento\Fr in C:\www\magento\vendor\magento\module-backend\Model\View\Result\Page.php on line 27
+[28-Nov-2017 11:22:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function setActive() on boolean in C:\www\magento\vendor\magento\module-backend\Model\View\Result\Page.php:27
+Stack trace:
+#0 C:\www\magento\vendor\magento\module-backend\Controller\Adminhtml\Dashboard\Index.php(35): Magento\Backend\Model\View\Result\Page->setActiveMenu('Magento_Backend...')
+#1 C:\www\magento\vendor\magento\framework\App\Action\Action.php(107): Magento\Backend\Controller\Adminhtml\Dashboard\Index->execute()
+#2 C:\www\magento\vendor\magento\module-backend\App\AbstractAction.php(229): Magento\Framework\App\Action\Action->dispatch(Object(Magento\Framework\App\Request\Http))
+#3 C:\www\magento\vendor\magento\framework\App\FrontController.php(55): Magento\Backend\App\AbstractAction->dispatch(Object(Magento\Framework\App\Request\Http))
+#4 C:\www\magento\vendor\magento\framework\App\Http.php(135): Magento\Framework\App\FrontController->dispatch(Object(Magento\Framework\App\Request\Http))
+#5 C:\www\magento\vendor\magento\framework\App\Bootstrap.php(256): Magento\Framew in C:\www\magento\vendor\magento\module-backend\Model\View\Result\Page.php on line 27
